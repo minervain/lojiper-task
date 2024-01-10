@@ -1,0 +1,597 @@
+{
+    "seferler": [
+      {
+        "seferID": 1,
+        "kalkisSehir": "İstanbul",
+        "varisSehir": "Ankara",
+        "kalkisZamani": "2024-01-15T10:00:00",
+        "varisZamani": "2024-01-15T14:00:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 2,
+        "kalkisSehir": "İstanbul",
+        "varisSehir": "İzmir",
+        "kalkisZamani": "2024-01-16T12:00:00",
+        "varisZamani": "2024-01-16T16:00:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 3,
+        "kalkisSehir": "İstanbul",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-01-17T09:30:00",
+        "varisZamani": "2024-01-17T13:30:00",
+        "fiyat": 90.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 4,
+        "kalkisSehir": "İstanbul",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-01-18T14:00:00",
+        "varisZamani": "2024-01-18T18:00:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 12
+      },
+      {
+        "seferID": 5,
+        "kalkisSehir": "İstanbul",
+        "varisSehir": "Adana",
+        "kalkisZamani": "2024-01-19T11:30:00",
+        "varisZamani": "2024-01-19T15:30:00",
+        "fiyat": 95.0,
+        "bosKoltukSayisi": 25
+      },
+      
+      {
+        "seferID": 6,
+        "kalkisSehir": "Ankara",
+        "varisSehir": "İstanbul",
+        "kalkisZamani": "2024-01-20T16:00:00",
+        "varisZamani": "2024-01-20T20:00:00",
+        "fiyat": 100.0,
+        "bosKoltukSayisi": 10
+      },
+      {
+        "seferID": 7,
+        "kalkisSehir": "Ankara",
+        "varisSehir": "İzmir",
+        "kalkisZamani": "2024-01-21T13:45:00",
+        "varisZamani": "2024-01-21T17:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 8,
+        "kalkisSehir": "Ankara",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-01-22T09:15:00",
+        "varisZamani": "2024-01-22T13:15:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 9,
+        "kalkisSehir": "Ankara",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-01-23T08:00:00",
+        "varisZamani": "2024-01-23T12:00:00",
+        "fiyat": 70.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 10,
+        "kalkisSehir": "Ankara",
+        "varisSehir": "Adana",
+        "kalkisZamani": "2024-01-24T14:30:00",
+        "varisZamani": "2024-01-24T18:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 22
+      },
+     
+      {
+        "seferID": 11,
+        "kalkisSehir": "İzmir",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-01-25T11:00:00",
+        "varisZamani": "2024-01-25T15:00:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 12,
+        "kalkisSehir": "İzmir",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-01-26T12:30:00",
+        "varisZamani": "2024-01-26T16:30:00",
+        "fiyat": 95.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 13,
+        "kalkisSehir": "İzmir",
+        "varisSehir": "Adana",
+        "kalkisZamani": "2024-01-27T09:45:00",
+        "varisZamani": "2024-01-27T13:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 14,
+        "kalkisSehir": "İzmir",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-01-28T14:15:00",
+        "varisZamani": "2024-01-28T18:15:00",
+        "fiyat": 90.0,
+        "bosKoltukSayisi": 12
+      },
+      {
+        "seferID": 15,
+        "kalkisSehir": "İzmir",
+        "varisSehir": "Samsun",
+        "kalkisZamani": "2024-01-29T10:30:00",
+        "varisZamani": "2024-01-29T14:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 25
+      }, {
+        "seferID": 16,
+        "kalkisSehir": "Bursa",
+        "varisSehir": "Adana",
+        "kalkisZamani": "2024-02-01T11:30:00",
+        "varisZamani": "2024-02-01T15:30:00",
+        "fiyat": 90.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 17,
+        "kalkisSehir": "Bursa",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-02-02T12:00:00",
+        "varisZamani": "2024-02-02T16:00:00",
+        "fiyat": 95.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 18,
+        "kalkisSehir": "Bursa",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-02-03T09:45:00",
+        "varisZamani": "2024-02-03T13:45:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 19,
+        "kalkisSehir": "Bursa",
+        "varisSehir": "Samsun",
+        "kalkisZamani": "2024-02-04T14:15:00",
+        "varisZamani": "2024-02-04T18:15:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 12
+      },
+      {
+        "seferID": 20,
+        "kalkisSehir": "Bursa",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-02-05T10:30:00",
+        "varisZamani": "2024-02-05T14:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 25
+      },
+  
+      {
+        "seferID": 21,
+        "kalkisSehir": "Antalya",
+        "varisSehir": "Adana",
+        "kalkisZamani": "2024-02-06T16:00:00",
+        "varisZamani": "2024-02-06T20:00:00",
+        "fiyat": 100.0,
+        "bosKoltukSayisi": 10
+      },
+      {
+        "seferID": 22,
+        "kalkisSehir": "Antalya",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-02-07T13:45:00",
+        "varisZamani": "2024-02-07T17:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 23,
+        "kalkisSehir": "Antalya",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-02-08T09:15:00",
+        "varisZamani": "2024-02-08T13:15:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 24,
+        "kalkisSehir": "Antalya",
+        "varisSehir": "Samsun",
+        "kalkisZamani": "2024-02-09T08:00:00",
+        "varisZamani": "2024-02-09T12:00:00",
+        "fiyat": 70.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 25,
+        "kalkisSehir": "Antalya",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-02-10T14:30:00",
+        "varisZamani": "2024-02-10T18:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 22
+      },
+      {
+        "seferID": 26,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Samsun",
+        "kalkisZamani": "2024-02-11T11:00:00",
+        "varisZamani": "2024-02-11T15:00:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 27,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-02-12T12:30:00",
+        "varisZamani": "2024-02-12T16:30:00",
+        "fiyat": 95.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 28,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-02-13T09:45:00",
+        "varisZamani": "2024-02-13T13:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 29,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-02-14T14:15:00",
+        "varisZamani": "2024-02-14T18:15:00",
+        "fiyat": 90.0,
+        "bosKoltukSayisi": 12
+      },
+      {
+        "seferID": 30,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-02-15T10:30:00",
+        "varisZamani": "2024-02-15T14:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 25
+      },
+  
+      {
+        "seferID": 31,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Samsun",
+        "kalkisZamani": "2024-02-16T16:00:00",
+        "varisZamani": "2024-02-16T20:00:00",
+        "fiyat": 100.0,
+        "bosKoltukSayisi": 10
+      },
+      {
+        "seferID": 32,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-02-17T13:45:00",
+        "varisZamani": "2024-02-17T17:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 33,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-02-18T09:15:00",
+        "varisZamani": "2024-02-18T13:15:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 34,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-02-19T08:00:00",
+        "varisZamani": "2024-02-19T12:00:00",
+        "fiyat": 70.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 35,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-02-20T14:30:00",
+        "varisZamani": "2024-02-20T18:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 22
+      },
+      {
+        "seferID": 36,
+        "kalkisSehir": "Konya",
+        "varisSehir": "Samsun",
+        "kalkisZamani": "2024-02-21T11:00:00",
+        "varisZamani": "2024-02-21T15:00:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 37,
+        "kalkisSehir": "Konya",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-02-22T12:30:00",
+        "varisZamani": "2024-02-22T16:30:00",
+        "fiyat": 95.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 38,
+        "kalkisSehir": "Konya",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-02-23T09:45:00",
+        "varisZamani": "2024-02-23T13:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 39,
+        "kalkisSehir": "Konya",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-02-24T14:15:00",
+        "varisZamani": "2024-02-24T18:15:00",
+        "fiyat": 90.0,
+        "bosKoltukSayisi": 12
+      },
+      {
+        "seferID": 40,
+        "kalkisSehir": "Konya",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-02-25T10:30:00",
+        "varisZamani": "2024-02-25T14:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 25
+      },
+  
+      {
+        "seferID": 41,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Adana",
+        "kalkisZamani": "2024-02-26T16:00:00",
+        "varisZamani": "2024-02-26T20:00:00",
+        "fiyat": 100.0,
+        "bosKoltukSayisi": 10
+      },
+      {
+        "seferID": 42,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-02-27T13:45:00",
+        "varisZamani": "2024-02-27T17:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 43,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-02-28T09:15:00",
+        "varisZamani": "2024-02-28T13:15:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 44,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-02-29T08:00:00",
+        "varisZamani": "2024-02-29T12:00:00",
+        "fiyat": 70.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 45,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-03-01T14:30:00",
+        "varisZamani": "2024-03-01T18:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 22
+      },
+      {
+        "seferID": 46,
+        "kalkisSehir": "Adana",
+        "varisSehir": "Samsun",
+        "kalkisZamani": "2024-03-02T11:00:00",
+        "varisZamani": "2024-03-02T15:00:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 47,
+        "kalkisSehir": "Adana",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-03-03T12:30:00",
+        "varisZamani": "2024-03-03T16:30:00",
+        "fiyat": 95.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 48,
+        "kalkisSehir": "Adana",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-03-04T09:45:00",
+        "varisZamani": "2024-03-04T13:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 49,
+        "kalkisSehir": "Adana",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-03-05T14:15:00",
+        "varisZamani": "2024-03-05T18:15:00",
+        "fiyat": 90.0,
+        "bosKoltukSayisi": 12
+      },
+      {
+        "seferID": 50,
+        "kalkisSehir": "Adana",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-03-06T10:30:00",
+        "varisZamani": "2024-03-06T14:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 25
+      },
+  
+      {
+        "seferID": 51,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Trabzon",
+        "kalkisZamani": "2024-03-07T16:00:00",
+        "varisZamani": "2024-03-07T20:00:00",
+        "fiyat": 100.0,
+        "bosKoltukSayisi": 10
+      },
+      {
+        "seferID": 52,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-03-08T13:45:00",
+        "varisZamani": "2024-03-08T17:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 53,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-03-09T09:15:00",
+        "varisZamani": "2024-03-09T13:15:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 54,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-03-10T08:00:00",
+        "varisZamani": "2024-03-10T12:00:00",
+        "fiyat": 70.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 55,
+        "kalkisSehir": "Samsun",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-03-11T14:30:00",
+        "varisZamani": "2024-03-11T18:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 22
+      },
+  
+      {
+        "seferID": 56,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Eskişehir",
+        "kalkisZamani": "2024-03-12T16:00:00",
+        "varisZamani": "2024-03-12T20:00:00",
+        "fiyat": 100.0,
+        "bosKoltukSayisi": 10
+      },
+      {
+        "seferID": 57,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-03-13T13:45:00",
+        "varisZamani": "2024-03-13T17:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 58,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-03-14T09:15:00",
+        "varisZamani": "2024-03-14T13:15:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 59,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-03-15T08:00:00",
+        "varisZamani": "2024-03-15T12:00:00",
+        "fiyat": 70.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 60,
+        "kalkisSehir": "Trabzon",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-03-16T14:30:00",
+        "varisZamani": "2024-03-16T18:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 22
+      },
+  
+      {
+        "seferID": 61,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-03-17T11:00:00",
+        "varisZamani": "2024-03-17T15:00:00",
+        "fiyat": 80.0,
+        "bosKoltukSayisi": 20
+      },
+      {
+        "seferID": 62,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Bursa",
+        "kalkisZamani": "2024-03-18T12:30:00",
+        "varisZamani": "2024-03-18T16:30:00",
+        "fiyat": 95.0,
+        "bosKoltukSayisi": 15
+      },
+      {
+        "seferID": 63,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Antalya",
+        "kalkisZamani": "2024-03-19T09:45:00",
+        "varisZamani": "2024-03-19T13:45:00",
+        "fiyat": 85.0,
+        "bosKoltukSayisi": 18
+      },
+      {
+        "seferID": 64,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Konya",
+        "kalkisZamani": "2024-03-20T14:15:00",
+        "varisZamani": "2024-03-20T18:15:00",
+        "fiyat": 90.0,
+        "bosKoltukSayisi": 12
+      },
+      {
+        "seferID": 65,
+        "kalkisSehir": "Eskişehir",
+        "varisSehir": "Adana",
+        "kalkisZamani": "2024-03-21T10:30:00",
+        "varisZamani": "2024-03-21T14:30:00",
+        "fiyat": 75.0,
+        "bosKoltukSayisi": 25
+      }
+    ]
+  }
+  
