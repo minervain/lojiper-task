@@ -25,7 +25,7 @@ const SignupPage: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-200 h-screen flex items-center justify-center">
+    <div className=" h-screen flex items-center justify-center" style={{backgroundColor:"#D23B38"}}>
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-6">Signup</h2>
 

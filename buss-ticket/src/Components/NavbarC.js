@@ -12,7 +12,7 @@ const Navbar = () => {
 
       <div className="flex items-center">
         <Link to="/login" className="mx-2">Seferler</Link>
-        <Link to="/register" className="mx-2">Logout</Link>
+        <Link to="/" className="mx-2">Logout</Link>
       </div>
     </nav>
   );

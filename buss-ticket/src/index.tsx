@@ -6,6 +6,7 @@ import './router'
 import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import SignupPage from './Pages/SignupPage';
+import InquiryPage from './Pages/InquiryPage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,7 +19,7 @@ root.render(
       <Route path="/home" element={<HomePage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/" element={<SignupPage />} />
-      <Route path="/Inquiry" element={<HomePage />} />
+      <Route path="/inquiry/:departure/:arrival/:departureDate" element={<InquiryPage />} />
 
     </Routes>
   </BrowserRouter>
