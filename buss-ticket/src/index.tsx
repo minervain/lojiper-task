@@ -7,7 +7,7 @@ import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import SignupPage from './Pages/SignupPage';
 import InquiryPage from './Pages/InquiryPage';
-
+import Seferler from './Pages/Seferler';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
@@ -20,6 +20,8 @@ root.render(
       <Route path="/login" element={<LoginPage />} />
       <Route path="/" element={<SignupPage />} />
       <Route path="/inquiry/:departure/:arrival/:departureDate" element={<InquiryPage />} />
+      <Route path="/seferler" element={<Seferler/>} />
+
 
     </Routes>
   </BrowserRouter>

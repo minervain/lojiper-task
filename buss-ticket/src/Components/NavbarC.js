@@ -11,7 +11,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center">
-        <Link to="/login" className="mx-2">Seferler</Link>
+        <Link to="/seferler" className="mx-2">Seferler</Link>
         <Link to="/" className="mx-2">Logout</Link>
       </div>
     </nav>

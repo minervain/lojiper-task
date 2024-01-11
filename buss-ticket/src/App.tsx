@@ -4,7 +4,7 @@ import Navbarc from './Components/NavbarC';
 import { Outlet } from 'react-router-dom';
 
 function App() {
-  const [isLoggedIn, setLoggedIn] = useState(false); 
+  const [isLoggedIn, setLoggedIn] = useState(false);
 
   return (
     <div className="bg-black">
