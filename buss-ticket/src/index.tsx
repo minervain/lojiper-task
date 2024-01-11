@@ -8,11 +8,14 @@ import LoginPage from './Pages/LoginPage';
 import SignupPage from './Pages/SignupPage';
 import InquiryPage from './Pages/InquiryPage';
 import Seferler from './Pages/Seferler';
+import TripDetailsPage from './Pages/TripDetailsPage';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+
   <BrowserRouter>
+  
     <App />
 
     <Routes>
@@ -20,7 +23,9 @@ root.render(
       <Route path="/login" element={<LoginPage />} />
       <Route path="/" element={<SignupPage />} />
       <Route path="/inquiry/:departure/:arrival/:departureDate" element={<InquiryPage />} />
-      <Route path="/seferler" element={<Seferler/>} />
+      <Route path="/seferler" element={<Seferler />} />
+      <Route path="/seferler/:id" element={<TripDetailsPage />} />
+
 
 
     </Routes>

@@ -16,8 +16,7 @@ interface TripSummaryProps {
 const TripSummary: React.FC<TripSummaryProps> = ({ key, trip }) => {
   return (
     <div>
-      {/* ... Var olan TripSummary bileşeninizin kodu ... */}
-    </div>
+,    </div>
   );
 };
 

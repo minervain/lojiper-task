@@ -18,7 +18,7 @@ class AuthService {
 
   static login(email: string, password: string): boolean {
     const user = AuthService.users.find((u) => u.email === email && u.password === password);
-    return !!user; 
+    return !!user;
   }
 }
 

@@ -2,14 +2,12 @@ import { useParams } from 'react-router-dom';
 import data from '../api/sefer.json';
 import resim from '../assets/logo4.png'
 import NotFound from './NotFound/NotFound';
+import { useState } from 'react';
+import BasicModal from '../Components/Modal/InqModal';
 
 function InquiryPage() {
     const { departure, arrival, departureDate } = useParams();
-    console.log("Departure:", departure);
-    console.log("Data:", data);
-    console.log(arrival)
-    console.log(departureDate)
-
+    const [open, SetOpen] = useState(false)
 
     const filteredFlights = data.seferler.filter(sefer => {
         const condition =
@@ -21,6 +19,10 @@ function InquiryPage() {
 
         return condition;
     });
+
+    const handleModal = () => {
+        SetOpen(!open)
+    }
 
 
 
@@ -38,12 +40,15 @@ function InquiryPage() {
                                     <p className='text-white'>Varış Zamanı: {sefer.varisZamani}</p>
                                     <p className='text-white'>Fiyat: {sefer.fiyat}</p>
                                     <p className='text-white'>Boş Koltuk Sayısı: {sefer.bosKoltukSayisi}</p>
-                                    <button className='bg-blue-500 text-white font-bold py-2 px-4 rounded mt-2'>
-                                        Satın Al
+                                    <button className='bg-blue-500 text-white font-bold py-2 px-4 rounded mt-2' onClick={handleModal}>
+                                        İncele
                                     </button>
+                                    {
+                                        open ? <BasicModal bosKoltukSayisi={sefer.bosKoltukSayisi} /> : ""
+                                    }
                                 </div>
                                 <div className='w-64'>
-                                    <img src={resim} alt="" />
+                                    <img src={resim} alt="Buss" />
 
                                 </div>
                             </div>

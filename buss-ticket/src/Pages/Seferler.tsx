@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import data from '../api/sefer.json';
 
-function Seferler() {
+
+
+const Seferler: React.FC = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const [perPage, setPerPage] = useState(5);
 
@@ -27,11 +29,15 @@ function Seferler() {
                         <p className='text-white'>Fiyat: {sefer.fiyat}</p>
                         <p className='text-white'>Boş Koltuk Sayısı: {sefer.bosKoltukSayisi}</p>
                         <button className="bg-blue-500 text-white px-4 py-2 mt-2 rounded hover:bg-blue-700">Satın Al</button>
+                        <div className='w-64'>
+                            <img src="" alt="" />
+
+                        </div>
                     </li>
+
                 ))}
             </ul>
             <div className="flex justify-center mt-4">
-                {/* Sayfa numaralarını göster */}
                 {Array.from({ length: totalPages }, (_, index) => (
                     <button
                         key={index + 1}
