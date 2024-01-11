@@ -44,7 +44,7 @@ function InquiryPage() {
                                         İncele
                                     </button>
                                     {
-                                        open ? <BasicModal bosKoltukSayisi={sefer.bosKoltukSayisi} /> : ""
+                                        open ? <BasicModal bosKoltukSayisi={sefer.bosKoltukSayisi} fiyat={sefer.fiyat} /> : ""
                                     }
                                 </div>
                                 <div className='w-64'>

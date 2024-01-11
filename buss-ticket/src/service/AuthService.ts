@@ -1,4 +1,3 @@
-// src/services/AuthService.ts
 
 interface UserData {
   firstName: string;

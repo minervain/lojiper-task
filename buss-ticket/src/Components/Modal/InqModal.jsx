@@ -1,6 +1,8 @@
+import { Button } from '@mui/material';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { useState, useEffect } from 'react';
+import PaymentPage from '../../Pages/PaymentPage';
 
 const style = {
     position: 'absolute',
@@ -12,10 +14,11 @@ const style = {
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
+    color: 'white',
+    border: 'none',
 }
 
 const shuffleArray = (array) => {
-    // Implement Fisher-Yates shuffle algorithm
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
@@ -23,9 +26,11 @@ const shuffleArray = (array) => {
     return array;
 };
 
-const BasicModal = ({ bosKoltukSayisi }) => {
+const BasicModal = ({ bosKoltukSayisi, fiyat }) => {
     const [selectedSeats, setSelectedSeats] = useState([]);
     const [seatsLayout, setSeatsLayout] = useState([]);
+    const [totalPrice, setTotalPrice] = useState(0);
+    const [show, setShow] = useState(false);
 
     useEffect(() => {
         const totalSeats = 40;
@@ -43,12 +48,24 @@ const BasicModal = ({ bosKoltukSayisi }) => {
 
     const handleSeatClick = (seatNumber) => {
         const isSelected = selectedSeats.includes(seatNumber);
-        if (isSelected) {
-            setSelectedSeats(selectedSeats.filter((seat) => seat !== seatNumber));
-        } else {
-            setSelectedSeats([...selectedSeats, seatNumber]);
+
+        if (!isSelected && selectedSeats.length === 5) {
+            return;
         }
+
+        const updatedSelectedSeats = isSelected
+            ? selectedSeats.filter((seat) => seat !== seatNumber)
+            : [...selectedSeats, seatNumber];
+
+        setSelectedSeats(updatedSelectedSeats);
+
+        const updatedTotalPrice = updatedSelectedSeats.length * fiyat;
+        setTotalPrice(updatedTotalPrice);
     };
+
+    const handlePayment = () => {
+        setShow(!show)
+    }
 
     const generateBusSeats = () => {
         return seatsLayout.map((row, rowIndex) => (
@@ -56,7 +73,7 @@ const BasicModal = ({ bosKoltukSayisi }) => {
                 {row.map((seatNumber) => {
                     const isSeatSelected = selectedSeats.includes(seatNumber);
                     const seatStyle = {
-                        cursor: 'pointer',
+                        cursor: isSeatSelected || selectedSeats.length === 5 ? 'not-allowed' : 'pointer',
                         width: '30px',
                         height: '30px',
                         margin: '5px',
@@ -82,18 +99,27 @@ const BasicModal = ({ bosKoltukSayisi }) => {
 
     return (
         <div>
-            <Box sx={style}>
-                <Typography variant="h6" component="h2">
+            <Box sx={{ ...style, backgroundColor: "#D23B38" }}>
+                <Typography variant="h6" component="h2" style={{ textAlign: 'center' }}>
                     Otobüs Koltuk Seçimi
                 </Typography>
+                {show ? <PaymentPage /> : ""}
+
                 <Box sx={{ mt: 2 }}>
                     {generateBusSeats()}
                 </Box>
                 <Typography sx={{ mt: 2 }}>
                     Seçilen Koltuklar: {selectedSeats.join(', ')}
                 </Typography>
+                <Typography sx={{ mt: 2 }}>
+                    Toplam Fiyat: {totalPrice} TL
+                </Typography>
+                <Button variant='contained' onClick={handlePayment} > Ödeme yap</Button>
+               
             </Box>
+
         </div>
+
     );
 }
 

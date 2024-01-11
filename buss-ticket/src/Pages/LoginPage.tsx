@@ -1,4 +1,3 @@
-// src/components/LoginPage.tsx
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -12,18 +11,17 @@ const LoginPage: React.FC = () => {
   const navigate = useNavigate();
 
   const login = () => {
-    // Burada giriş işlemleri yapılır, ardından ana sayfaya yönlendirme
     const loginSuccessful = AuthService.login(email, password);
 
     if (loginSuccessful) {
       navigate('/home');
     } else {
-      setErrorMessage('Incorrect email or password. Please try again.');
+      setErrorMessage('Hatalı Mail ya da Password bir daha deneyin');
     }
   };
 
   return (
-    <div className="bg-gray-200 h-screen flex items-center justify-center" style={{backgroundColor:"#D23B38"}}>
+    <div className="bg-gray-200 h-screen flex items-center justify-center" style={{ backgroundColor: "#D23B38" }}>
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-6">Login</h2>
 
